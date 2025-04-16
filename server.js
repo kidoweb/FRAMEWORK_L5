@@ -36,7 +36,6 @@ app.get('/error', (req, res) => {
   throw new Error('Пример ошибки');
 });
 
-// Запуск сервера
 app.listen(3000, () => {
   console.log('Сервер запущен на порту 3000');
 });
